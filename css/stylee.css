@@ -1,0 +1,390 @@
+.nav-link .active
+{
+    color:crimson !important;
+}
+.navbar .navbar-nav>li a:hover, .navbar .navbar-nav>li a:focus, .navbar .navbar-nav>li.active>a, .arrows .arrow i:hover, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus
+.navbar .navbar-nav>li>a
+{
+    color: crimson !important;
+}
+.nav-item-b
+{
+    font-weight: 600 !important;
+    color: black !important;
+}
+.active
+{
+    color: red !important ;
+    font-weight: 600 !important;
+}
+
+.nav-icon
+{
+    transition:1s color;
+}
+.nav-icon:hover
+{
+    color: crimson !important;
+
+}
+
+#home
+{
+    width: 100%;
+   min-height:100%;
+    background-position: center center;
+    background-size: cover;
+}
+.carousel-control-prev
+{
+    position:absolute !important;
+    top:200px !important;
+    left: 0 !important;
+}
+.carousel-caption
+{
+    top: 25%;
+    left: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.head
+{
+    color: white;
+    font-size: 36px;
+    height: 100vh;
+    position: relative;
+    z-index: 5;
+}
+.head-size
+{
+    font-size: 5.5rem !important;
+}
+.bg-red
+{
+    background-color: crimson;
+}
+.settings
+{
+    top: 20%;
+    left: 0;
+    width:39px;
+    height: 39px;
+    background-color: #1f2528;
+    border: 2px solid #1f2528;
+    border-radius: 5px;
+    
+    
+
+    
+    
+}
+.settings .buttom
+{
+    border: none;
+    padding: 15px  15px;
+    
+    background-color: #1f2528;
+    border-radius: 2px;
+}
+.settings .buttom:hover 
+{
+    background-color:rgb(128,128,128);
+    color: red;
+}
+.buttom i
+{
+    color: white;
+}
+.slider
+{
+    top:40%;
+    left: 0;
+}
+.slider .buttom
+{
+    background-color: transparent;
+    border: 3px solid transparent;
+    padding: 5px 19px;
+    display: block;  
+}
+.mouse  a button
+{
+    border: none;
+    
+    width: 30px;
+    height: 60px;
+    border-radius: 20px;
+    border:2px solid white ;
+    bottom: 5;
+    right: 50%;
+     background-color: transparent;
+
+}
+.mouse
+{
+   bottom: 0; 
+    right: 50%;
+}
+.carousel-control-prev
+{
+    top: 50% !important;
+    left: 0 !important;
+}
+
+
+
+.piont
+{
+    
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: white;
+   animation: move 2s infinite;
+
+}
+.all:hover .mouse
+{
+    border: solid 2px crimson !important;
+}
+
+@keyframes  move
+{
+      50%{ transform: translateY(150%);}
+      100%{
+          opacity: 0;
+
+      }
+}
+.main-size
+{
+    font-size: 4rem;
+    font-weight: 700;
+    color: gray;
+    opacity: .4;
+
+}
+
+.sub-size
+{
+    font-size: 45px;
+}
+.line
+{
+    width: 30px;
+    height: 2px !important;
+    background-color: black;
+    transition:width 2s ;
+
+}
+.header:hover .line
+{
+    width: 90px;
+}
+.progress{
+    height: 5px !important;
+    width: 80%;
+}
+
+.progress-bar
+{
+     height: 5px;
+     padding:0 0 !important ;
+}
+.clear-fix
+{
+    clear: both;
+}
+.cards
+{
+    transition: all .4s;
+    overflow: hidden;
+}
+.card-img 
+{
+    overflow: hidden;
+}
+
+.layer
+{
+    top: 0%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(242, 84, 84, 0.85); 
+
+    opacity:0;
+    border-radius: 3px;
+    transition:all 1s;
+}
+.cards:hover .layer
+{
+         background-color: rgba(242, 84, 84, 0..7);
+         opacity: 1;
+         transform: scale(1.4);
+
+
+
+
+}
+.card-img:hover img
+{
+    transform: scale(1.4);
+    overflow: hidden;
+}
+
+
+.layer a{
+    text-decoration: none;
+    color: white;
+}
+.btn-danger
+{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+.iteam-icon i
+{
+    color: #f25454;
+    
+}
+.iteam
+{
+  transition:all 2s;
+}
+.iteam-icon span
+{
+    color: black;
+    font-size: 20px;
+    font-weight:600;
+    text-decoration: none;
+}
+.iteam:hover span
+{
+    color: #f25454;
+}
+
+
+.contact-info h3
+{
+    margin:0 0 30px 0   ;
+}
+.lower-case
+{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.text
+{
+   font-size: 20px !important;
+   font-weight: 600; 
+}
+.iteam-info a
+{
+   text-decoration: none;
+}
+.sign-up form input
+{
+    width: 100%;
+    height: 50px;
+    margin: 15px;
+
+}
+.w-head
+{
+    color: white;
+}
+.useful-link li
+{
+     list-style: none;
+     padding:4px 0;
+}
+.useful-link li a
+{
+    text-decoration: none;
+    transition: all 1s;
+    
+}
+.useful-link a:hover
+{
+    color: #f25454 !important;
+}
+.post-link
+{
+    text-decoration: none;
+    transition:all 1s;
+
+}
+.post li
+{
+   list-style: none;
+}
+.post li a
+{
+    text-decoration: none;
+}
+.post-link:hover
+{
+    color:#f25454 !important ;
+}
+.post li 
+{
+    list-style: none;
+    padding: 4px;
+}
+.tags button
+{
+      margin-right: 2px;
+      margin-bottom: 6px;
+      transition:all 1s;
+}
+.tags button a
+{
+    text-decoration: none;
+}
+.tags button:hover
+{
+    border-color:#f25454 ;
+}
+.ss
+{
+    display: flex;
+    align-items:center ;
+    justify-content: end;
+}
+.bg-brown
+{
+    background-color: rgb(139,69,19) !important;
+}
+.up
+{
+    transform: translatey(-25px);
+    border-radius: 50%;
+   
+}
+.up a
+{
+    text-decoration: none;
+    color: red;
+    border-radius: 50%;
+}
+.up-icon 
+{
+     width: 60px;
+     height: 60px;
+     background-color: red;
+     border-radius: 50%;
+     opacity: .6;
+     transition: all 1s;
+}
+.up-icon:hover
+{
+    opacity: .9;
+}
+
+
+
