@@ -11,8 +11,13 @@
     color:#282828;
  }
 body{
-    font-family: 'Open Sans', sans-serif;
+    width: 100% !important;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
     color: #666;
+    background: #fff;
 }
 .sub-title{
     max-width: 60%;
