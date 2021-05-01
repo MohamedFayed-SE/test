@@ -377,3 +377,247 @@ body{
 }
 
 
+/************************************************ Contact Part ************************************************/
+
+#contact {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    background-color: #fafafa;
+}
+
+.contact {
+    padding: 50px 10px;
+}
+
+.contact h2 {
+    margin: 0 0 50px 0;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 600;
+}
+
+.contact-icons {
+    color: #f25454;
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    margin-right: 10px;
+    text-align: center;
+    cursor: default;
+}
+
+.contact-details h4 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 600;
+}
+
+.contact-details h4:hover {
+    color: #f25454 !important;
+}
+
+.contact1 {
+    padding: 15px 0px 50px 0px;
+}
+
+.contact-us {
+    position: relative;
+    z-index: 2;
+    padding: 20px 20px 50px 17px;
+    margin: 0px 0px;
+}
+
+.contact-form1 {
+    width: 100%;
+    line-height: 1;
+    padding: 15px 18px;
+    color: #a6a6a6 !important;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+    transition: border-color 0.15s ease-in;
+    margin: 10px 0px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input {
+    overflow: visible;
+    outline: 0;
+    box-shadow: none;
+}
+
+input:focus {
+    border-color: #f25454 !important;
+}
+
+textarea:focus {
+    border-color: #f25454 !important;
+}
+
+.btn i {
+    color: inherit;
+    padding-right: 10px;
+}
+
+.contact-us button {
+    margin-top: 15px;
+}
+
+
+/************************************************ Footer Part ************************************************/
+
+#footer {
+    font-family: "Poppins", sans-serif;
+    color: #b0b0b0;
+}
+
+.footer-details {
+    position: relative;
+    clear: both;
+    background: #222;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(images/dotted-map.png);
+    background-size: contain;
+}
+
+.footer-details .top {
+    background: rgba(242, 84, 84, 0.5);
+    position: absolute;
+    display: block;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: -25px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer !important;
+}
+
+.top i {
+    color: #fff;
+    font-size: 18px;
+    line-height: 46px;
+}
+
+.footer-description {
+    padding-top: 20px;
+}
+
+.footer-logo {
+    margin: 0 0 30px;
+}
+
+.footer-logo a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+.widget h5 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget-text a {
+    color: #b0b0b0;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: #f25454 !important;
+}
+
+.types {
+    margin-top: 16px;
+    overflow: hidden;
+}
+
+.types .type {
+    border: 1px solid #b0b0b0;
+    display: block;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 2px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.types a:hover {
+    color: #f25454 !important;
+    border: 1px solid #f25454;
+}
+
+.footer-end {
+    position: relative;
+    clear: both;
+    background: #1a1a1a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.socialmedia {
+    cursor: default;
+    line-height: 1;
+}
+
+.socialmedia a {
+    margin: 0 10px;
+    color: #444;
+}
+
+.socialmedia i {
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    width: 1.2em;
+    text-align: center;
+}
+
+.socialmedia i:hover {
+    color: #f25454;
+}
+
+.copyright {
+    clear: both;
+    margin: 0;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-align: right;
+}
+
+.copyright a {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.copyright a:hover {
+    color: #f25454;
+    text-decoration: none;
+}
