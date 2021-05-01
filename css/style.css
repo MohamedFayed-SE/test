@@ -1,0 +1,379 @@
+/*General */
+
+.main-color{
+    color: #f25454 !important
+}
+ .main-bgColor{
+     background-color: #f25454;
+ }
+ h1, h2, h3, h4, h5,h6{
+    font-family: 'Poppins', sans-serif;
+    color:#282828;
+ }
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+}
+.sub-title{
+    max-width: 60%;
+    margin: auto;
+}
+
+/* Home */
+
+.bg-navbar{
+    background-color:black;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #f25454;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #f25454;
+}
+.fab{
+   padding-top:5px ;
+   font-size: 14px;
+}
+/* Carousel */
+.carousel-img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} 
+.carousel-caption{
+    padding-bottom: 200px;
+    margin: auto;
+}
+.carousel-caption h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 70px ;
+}
+
+@media all and (max-width:1200px) and (min-width:900px){
+    .carousel-caption h1{
+       font-size:70px; 
+    }  
+}
+@media all and (max-width:900px) and (min-width:700px){
+    .carousel-caption h1{
+       font-size:34px; 
+    }  
+}
+@media all and (max-width:700px){
+    .carousel-caption h1{
+       font-size:25px; 
+    }  
+}
+.scroll{
+    width: 30px;
+    height: 50px;
+    border: solid 2px #fff;
+    border-radius:15px ;
+    margin: auto;
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.scroll:hover{
+    cursor: pointer;
+}
+.weel{
+    width: 8px;
+    height: 8px;
+    border: solid 2px white;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    display: block;
+    top:0;
+    left: 50%;
+    transform: translate(-50%);
+    animation: well 3s ease infinite;
+}
+@keyframes well{
+    0%{
+        top:0;
+    }
+    10%{
+        top:10px;
+    }
+    20%{
+        top:20px;
+    }
+    30%{
+        top:30px;
+    }
+    40%{
+        opacity:0;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        top:0px;
+    }
+    70%{
+        top:10px;
+    }
+    80%{
+        top:20px;
+    }
+    90%{
+        top:30px;
+    }
+    100%{
+        top:30px;
+    }
+}
+.icons{
+ width: 50px;
+ position: absolute;
+ top: 60%;
+ left: 0;
+}
+
+.right,.left{
+   width: 50px;
+   height: 50px;
+   border: 1px solid #fff;
+
+}
+.icons i{
+    font-size: 30px;
+    color: #fff;
+}
+.icons a{
+    text-decoration: none;
+}
+
+
+
+/* About section */
+#about .setting{
+    top: 20%;
+    z-index: 11111;
+}
+#about .setting i{
+    background-color: #1f2528;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+.head h2{
+    font-size: 4rem;
+    color: #eaeaea;
+}
+.head h4{
+    font-size: 2.4rem;
+    font-weight: 700px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.line{
+    background-color: #282828;
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 1s;
+    cursor: pointer;
+    
+}
+.line:hover{
+    width: 80px;
+}
+
+/* About Us */
+.progress{
+    height:5px;
+}
+
+/* Our Team */
+
+#team .team-layer{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(242, 84, 84, 0.85);
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* Services */
+#services .services-icon{
+    font-size: 32px;
+}
+#services .services-text h3{
+    font-size: 18px;
+    transition: 1s;
+}
+#services .services-text h3:hover{
+  color: #f25454;
+}
+#services .services-text p{
+    font-size: 14px;
+}
+
+/* Clinet Review */
+.carousel-indicators img{
+ width: 130px;
+ height: 130px;
+ border-radius:50%; 
+ margin: 10px;
+ cursor: pointer;
+ opacity: .5;
+ margin-bottom: 50px;
+}
+.carousel-indicators .active{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Get in touch */
+
+#touch input,textarea {
+    width: 98%;
+    margin-bottom: 20px;
+    position: relative;
+    height: 3rem;
+    padding: 14px 18px ;
+    border: solid 2px #a6a6a6;
+    border-radius: 3px;
+}
+#touch textarea{
+    height: 110px;
+    overflow: auto;
+}
+#touch .btn-danger{
+    border-radius: 5px;
+}
+
+#touch .get-icon{
+    font-size: 32px;
+}
+
+
+/* About Section */
+.main-size
+{
+    font-size: 4rem;
+    font-weight: 700;
+    color: gray;
+    opacity: .4;
+
+}
+
+.sub-size
+{
+    font-size: 45px;
+}
+.line
+{
+    width: 30px;
+    height: 2px !important;
+    background-color: black;
+    transition:width 2s ;
+
+}
+.header:hover .line
+{
+    width: 90px;
+}
+.progress{
+    height: 5px !important;
+    width: 80%;
+}
+
+.progress-bar
+{
+     height: 5px;
+     padding:0 0 !important ;
+}
+.clear-fix
+{
+    clear: both;
+}
+/* team section*/
+.cards
+{
+    transition: all .4s;
+    overflow: hidden;
+}
+.card-img 
+{
+    overflow: hidden;
+}
+
+.layer
+{
+    top: 0%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(242, 84, 84, 0.85); 
+
+    opacity:0;
+    border-radius: 3px;
+    transition:all 1s;
+}
+.cards:hover .layer
+{
+         background-color: rgba(242, 84, 84, 0..7);
+         opacity: 1;
+         transform: scale(1.4);
+
+
+}
+.card-img:hover img
+{
+    transform: scale(1.4);
+    overflow: hidden;
+}
+
+
+.layer a{
+    text-decoration: none;
+    color: white;
+}
+.btn-danger
+{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+.iteam-icon i
+{
+    color: #f25454;
+    
+}
+
+
