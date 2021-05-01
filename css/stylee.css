@@ -159,45 +159,103 @@
 
       }
 }
-.main-size
-{
-    font-size: 4rem;
+
+/************************************************ About Part ************************************************/
+
+#about {
+    padding: 80px 15px 80px 15px;
+}
+
+.title h2 {
+    font-size: 5em;
+    opacity: 0.5;
+    margin: auto;
+    color: #e2dfdf;
     font-weight: 700;
-    color: gray;
-    opacity: .4;
-
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
-.sub-size
-{
-    font-size: 45px;
-}
-.line
-{
-    width: 30px;
-    height: 2px !important;
-    background-color: black;
-    transition:width 2s ;
-
-}
-.header:hover .line
-{
-    width: 90px;
-}
-.progress{
-    height: 5px !important;
-    width: 80%;
-}
-
-.progress-bar
-{
-     height: 5px;
-     padding:0 0 !important ;
-}
-.clear-fix
-{
+.title h3 {
+    color: #282828;
     clear: both;
+    display: inline-block;
+    margin-bottom: -10px;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: none;
+    font-family: "Poppins", sans-serif;
 }
+
+.liner {
+    width: 40px;
+    height: 1px;
+    background: black;
+    margin: 0 auto 10px;
+}
+
+.logo:hover .liner {
+    width: 60px;
+    transition: 400ms;
+}
+
+.sub-title p {
+    font-size: 18px;
+    color: #999999;
+    width: 65%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+}
+
+#about .description .container {
+    padding: 50px 0px 0px 0px;
+}
+
+.description-text {
+    font-size: 14px;
+    line-height: 1.75em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.description-text p {
+    margin-bottom: 10px;
+}
+
+.progress-title {
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.progress-type {
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.progress-number {
+    text-align: right;
+    font-weight: 500;
+    width: 80%;
+    opacity: 1;
+}
+
+.progress {
+    height: 4px !important;
+    margin-bottom: 20px !important;
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: none;
+}
+
+.progress-bar {
+    background-color: #f25454 !important;
+}
+
 .cards
 {
     transition: all .4s;
